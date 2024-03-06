@@ -6,7 +6,7 @@ function iniciarTemporizador() {
   tiempoRestante = parseInt(tiempoInput.value);
 
   if (tiempoRestante > 0) {
-    temporizador = setInterval(function() {
+    temporizador = setInterval(function () {
       tiempoRestante--;
       if (tiempoRestante >= 0) {
         actualizarDisplay();
